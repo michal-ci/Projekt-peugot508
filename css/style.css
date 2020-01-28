@@ -68,8 +68,8 @@ h2 {
 }
 
 .seckcja-tree {
-	background: url("../assets/bg-sekcja-3.jpg") no-repeat center/cover;
-	height: 1695px;
+	background: url("../assets/tlo-anima-car.jpg") no-repeat center/cover;
+	height: 1080px;
 
 }
 
@@ -92,12 +92,14 @@ margin-left: 90px;
 
 .cars {
 	position: relative;
+	left: 500px;
 }
 
 .circle-1,
 .circle-2
 {
 	position: absolute;
+	animation: animationCircle 5s linear infinite;
 
 }
 
@@ -109,4 +111,17 @@ margin-left: 90px;
 .circle-2 {
     left: 426px;
     top: 93px;
+}
+
+@keyframes animationCircle {
+	
+	0%
+	{
+		transform: rotate(360deg);
+	}
+	100%
+	{
+		transform: rotate(0deg);
+	}
+	
 }
