@@ -5,11 +5,13 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
-	line-height: 33px;
+	
 	color: white;
 }
 body{
 	background-color: #000;
+	font-size: 13px;
+	line-height: 28px;
 }
 section.seckcja-top { 
 	background: url("../assets/grafika-top-1.jpg") no-repeat center/cover;
@@ -28,7 +30,7 @@ h1 {
 }
 
 h2 {
-	font-size: 49px;
+	font-size: 38px;
 	width: 600px;
 	line-height: 55px;
 	margin: 20px 0;
@@ -41,7 +43,7 @@ h2 {
 
 .article-top {
 	position: absolute;
-	top: 430px;
+	top: 730px;
 }
 
 .article-sektion-one {
@@ -64,7 +66,7 @@ h2 {
 .seckcja-two {
 	background: url("../assets/tlo-pin1.jpg") no-repeat center/cover;
 	height: 862px;
-	margin-top: -30px;
+	margin-top: -430px;
 }
 
 .seckcja-tree {
@@ -75,7 +77,8 @@ h2 {
 
 .foto-box {
 	margin-top: -150px;
-margin-left: 90px;
+    margin-left: 90px;
+	margin-right: 90px;
 	width: 400px;
 }
 
@@ -92,14 +95,17 @@ margin-left: 90px;
 
 .cars {
 	position: relative;
-	left: 500px;
+	left: 0px;
+	top: -200px;
+	animation: carMove 10s linear infinite;
+
 }
 
 .circle-1,
 .circle-2
 {
 	position: absolute;
-	animation: animationCircle 5s linear infinite;
+	animation: animationCircle 2s linear infinite;
 
 }
 
@@ -122,6 +128,19 @@ margin-left: 90px;
 	100%
 	{
 		transform: rotate(0deg);
+	}
+	
+}
+
+@keyframes carMove {
+	
+	0%
+	{
+		transform: translate( 2000px);
+	}
+	100%
+	{
+		transform: translate( -1000px);
 	}
 	
 }
