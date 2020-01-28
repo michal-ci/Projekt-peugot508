@@ -5,13 +5,15 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
-	
 	color: white;
 }
 body{
 	background-color: #000;
 	font-size: 13px;
 	line-height: 28px;
+}
+button {
+	cursor: pointer;	
 }
 section.seckcja-top { 
 	background: url("../assets/grafika-top-1.jpg") no-repeat center/cover;
@@ -67,15 +69,14 @@ h2 {
 .seckcja-two {
 	background: url("../assets/tlo-pin1.jpg") no-repeat center/cover;
 	height: 862px;
-	margin-top: -430px;
+	margin-top: -280px;
+	
 }
 
 .seckcja-tree {
 	background: url("../assets/tlo-anima-car.jpg") no-repeat center/cover;
 	height: 1080px;
-
 }
-
 .foto-box {
 	margin-top: -150px;
     margin-left: 90px;
@@ -105,6 +106,7 @@ h2 {
 	border: 1px withe solid;
 	border-radius: 25px;
 	margin: 5px;
+	
 }
 .btn-color:hover {
 	width: 35px;
@@ -235,4 +237,62 @@ h2 {
   0%  {opacity: .4}
   100% {opacity: 1}
 }
+
+/* pin Hover*/
+
+
+.contener-pin {
+	max-width: 1170px;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 0 20px;
+	position: relative;
+}
+
+.pin {
+	position: absolute;
+	top: 350px;
+	left: 210px;
+	background: url("../assets/pin.svg") no-repeat;
+	width: 40px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+}
+
+.pin:nth-child(1) {
+
+	top: 450px;
+	left: 750px;
+	
+}
+.pin:nth-child(2) {
+
+	top: 650px;
+	left: 790px;
+	
+}
+
+.pin:nth-child(3) {
+
+	top: 550px;
+	left: 590px;
+	
+}
+
+.pin:hover {
+	box-shadow: 0 15px 40px rgba(37, 114, 229, 0.8);
+	border-radius: 25px;
+	background: url("../assets/pin-on.svg") rgba(37, 114, 229, 0.5);
+	width: 50px;
+	height: 50px;
+	transition: 0.5s ease-out;
+}
+
+.pin:empty {
+
+	transition: 0.5s ease-out;
+}
+
+
 
