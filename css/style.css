@@ -89,3 +89,24 @@ margin-left: 90px;
 	width: 450px;
 	
 }
+
+.cars {
+	position: relative;
+}
+
+.circle-1,
+.circle-2
+{
+	position: absolute;
+
+}
+
+.circle-1 {
+    left: 71px;
+    top: 93px;
+}
+
+.circle-2 {
+    left: 426px;
+    top: 93px;
+}
