@@ -81,7 +81,6 @@ h2 {
 	margin-right: 90px;
 	width: 400px;
 }
-
 .article-seckcja-tree {
 	display: flex;
 	justify-content: space-between;
@@ -90,17 +89,47 @@ h2 {
 .text-column-mini {
 	margin-top: 200px;
 	width: 450px;
-	
 }
+
+/* sterowanie animacją */
+
+.buttons {
+	margin: 0 auto;
+	width: 150px;
+	top: 20px;
+}
+.btn-color {
+	width: 20px;
+	height: 20px;
+	border: 1px withe solid;
+	border-radius: 25px;
+	margin: 5px;
+}
+.btn-color:hover {
+	width: 35px;
+	height: 35px;
+	transition: 0.5s ease-in-out;
+}
+
+.btn-color.red-color {
+	background-color: red;
+}
+
+.btn-color.red-blue {
+	background-color: blue;
+}
+.btn-color.red-dark {
+	background-color: black;
+}
+
+/*Animacja */
 
 .cars {
 	position: relative;
 	left: 0px;
-	top: -200px;
+	top: -250px;
 	animation: carMove 10s linear infinite;
-
 }
-
 .circle-1,
 .circle-2
 {
@@ -144,3 +173,6 @@ h2 {
 	}
 	
 }
+
+
+
