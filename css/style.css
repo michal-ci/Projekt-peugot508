@@ -7,10 +7,13 @@
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 }
+
 body{
 	background-color: #000;
 	font-size: 13px;
 	line-height: 28px;
+
+	
 }
 button {
 	cursor: pointer;	
@@ -227,6 +230,7 @@ h2 {
 }
 
 /* przenikanie img animacja*/
+
 .fade {
 
   animation-name: fade;
@@ -238,7 +242,7 @@ h2 {
   100% {opacity: 1}
 }
 
-/* pin Hover*/
+/* pin */
 
 
 .contener-pin {
@@ -292,6 +296,62 @@ h2 {
 .pin:empty {
 
 	transition: 0.5s ease-out;
+}
+
+
+/* pin hover - pop up */
+
+.tooltip {
+    display:inline-block;
+    text-align:left;    
+}
+
+.tooltip h3 {margin:12px 0;}
+
+.tooltip .bottom {
+    min-width:300px;
+    top:40px;
+    left:50%;
+    transform:translate(-50%, 0);
+    padding:20px;
+    background-color:#000;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.tooltip:hover .bottom {
+    display:block;
+}
+
+.tooltip .bottom img {
+    width:400px;
+}
+
+.tooltip .bottom i {
+    position:absolute;
+    bottom:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.tooltip .bottom i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,50%) rotate(45deg);
+    background-color:#000;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
 
 
