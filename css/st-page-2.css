@@ -1,0 +1,196 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+body{
+	background-color: #000;
+	font-size: 13px;
+	line-height: 28px;
+}
+
+div.contener {
+	max-width: 1170px;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 0 20px;
+	z-index: 1;
+}
+
+h1 {
+	font-size: 60px;
+	width: 600px;
+	line-height: 55px;
+}
+
+h2 {
+	font-size: 38px;
+	width: 600px;
+	line-height: 55px;
+	margin: 20px 0;
+}
+/* ---------------------------------------------------- */
+
+section.seckcja-top { 
+	background: url("../assets/bg-top2.jpg") no-repeat center/cover;
+	position: relative;
+}
+
+
+.head-top {
+	display: flex;
+	justify-content:space-between;
+	margin-top: 5px;
+}
+
+.article-top {
+	position: absolute;
+	top: 500px;
+}
+
+
+
+/* ------------SEKCJA 1--------------- */
+
+.seckcja-one {
+/*    background: url("../assets/tlo-sekcja-2-pege-2.png") no-repeat center/cover ;*/
+	position: relative;
+	width: auto;
+	height: 1080px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+
+.video-container {
+	position: absolute;
+	
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+
+
+.seckcja-one img{
+    width: 350px;
+}
+
+
+
+.article-sektion-one {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0 50px 0;
+}
+	
+.text-column {
+    padding: 0 10px 0 10px;
+	width: 80%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1170px;
+  top: 50px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+	color: #000
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -52px;
+  padding: 40px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(16,82,181,0.8);
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(16,82,181,1 );
+}
+
+.numbertext {
+  color: #000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* przenikanie img animacja*/
+
+.fade {
+
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  0%  {opacity: .4}
+  100% {opacity: 1}
+}
+
+
+.seckcja-two {
+	background: #fff;
+	height: 500px;
+		;
+}
+
+
+.seckcja-three {
+		background: url("../assets/tlo-skrzynia.jpg") no-repeat center/cover;
+	    width: 100%;
+		height: 100vh;
+		
+}
+
+.article-three {
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.seckcja-four {
+	margin-top: 50px;
+}
+
+.article {
+	
+}
+
+
+
+.article-four {
+	margin-top: 30px;
+}
