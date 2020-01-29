@@ -1,17 +1,10 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-/* CSS Document */
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-}
 
-body{
-	background-color: #000;
-	font-size: 13px;
-	line-height: 28px;
+/* CSS Document */
+
+
+video {
+    width: 100%;
 }
 
 div.contener {
@@ -21,43 +14,26 @@ div.contener {
 	padding: 0 20px;
 	z-index: 1;
 }
+/* --------------------sekcja top -------------------------------- */
 
-h1 {
-	font-size: 60px;
-	width: 600px;
-	line-height: 55px;
-}
-
-h2 {
-	font-size: 38px;
-	width: 600px;
-	line-height: 55px;
-	margin: 20px 0;
-}
-/* ---------------------------------------------------- */
-
-section.seckcja-top { 
+section.seckcja-top-page2 { 
 	background: url("../assets/bg-top2.jpg") no-repeat center/cover;
 	position: relative;
 }
 
-
-.head-top {
+.head-top-page2 {
 	display: flex;
 	justify-content:space-between;
 	margin-top: 5px;
 }
-
-.article-top {
+.article-top-page2 {
 	position: absolute;
 	top: 500px;
 }
 
+/* ------------SEKCJA 1 page 2 --------------- */
 
-
-/* ------------SEKCJA 1--------------- */
-
-.seckcja-one {
+.seckcja-one-page2 {
 /*    background: url("../assets/tlo-sekcja-2-pege-2.png") no-repeat center/cover ;*/
 	position: relative;
 	width: auto;
@@ -66,131 +42,42 @@ section.seckcja-top {
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
+	background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 47%, rgba(255,255,255,1) 47%, rgba(255,255,255,1) 100%); 
 }
-
-
-.video-container {
+.video-container-page2 {
 	position: absolute;
-	
-	width: 100%;
-	height: 100vh;
+    width: 100%;
 }
-
-
-
-
-
-.seckcja-one img{
+.seckcja-one-page2 img{
     width: 350px;
 }
-
-
-
-.article-sektion-one {
+.article-sektion-one-page2 {
 	display: flex;
 	justify-content: space-between;
 	margin: 50px 0 50px 0;
 }
-	
-.text-column {
-    padding: 0 10px 0 10px;
-	width: 80%;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1170px;
-  top: 50px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-	color: #000
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -52px;
-  padding: 40px 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  background-color: rgba(16,82,181,0.8);
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-  
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(16,82,181,1 );
-}
-
-.numbertext {
-  color: #000;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* przenikanie img animacja*/
-
-.fade {
-
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  0%  {opacity: .4}
-  100% {opacity: 1}
-}
-
-
-.seckcja-two {
+.seckcja-two-page2 {
 	background: #fff;
 	height: 500px;
-		;
 }
 
-
-.seckcja-three {
-		background: url("../assets/tlo-skrzynia.jpg") no-repeat center/cover;
-	    width: 100%;
-		height: 100vh;
-		
+.seckcja-three-page2 {
+	background: url("../assets/tlo-skrzynia.jpg") no-repeat center/cover;
+	width: 100%;
+	height: 100vh;	
 }
-
-.article-three {
+.article-three-page2 {
 	height: 100vh;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 }
-
-.seckcja-four {
+.seckcja-four-page2 {
 	margin-top: 50px;
 }
-
-.article {
-	
-}
-
-
-
 .article-four {
 	margin-top: 30px;
 }
+
+/* style page 2 */

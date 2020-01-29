@@ -34,3 +34,29 @@ for (i = 0; i < buttons.length; i++) {
     var slide = document.querySelector(".cars .main").setAttribute('src', 'anim-assets/cars-' + e.target.dataset.color + '.png');
   });
 }
+
+// load page 2 in 1 
+
+function httpGet(theUrl)
+{
+    if (window.XMLHttpRequest)
+    {
+        xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function()
+    {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {        	
+        	document.body.innerHTML += xmlhttp.responseText;
+        }
+    }
+    xmlhttp.open("GET", theUrl, false );
+    xmlhttp.send();    
+}
+
+var asd = httpGet('page/page-2.html');
+
