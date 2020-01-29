@@ -73,13 +73,14 @@ h2 {
 	background: url("../assets/tlo-pin1.jpg") no-repeat center/cover;
 	height: 862px;
 	margin-top: -280px;
-	
 }
 
 .seckcja-three {
-	background: url("../assets/tlo-anima-car.jpg") no-repeat center/cover;
-	height: 1080px;
-	overflow: hidden;
+	background: url("../assets/tlo-anima-car.jpg") no-repeat top center/contain;
+	min-height: 890px;
+}
+.seckcja-three .contener {
+	height: 100%;
 }
 .foto-box {
 	margin-top: -150px;
@@ -101,13 +102,10 @@ h2 {
 
 .buttons {
 	display: flex;
-	margin: 0 auto;
-	width: 150px;
-	top: 50px;
-	height: 100px;
-	position: relative;  
-	align-content: center;
-	justify-content: center;
+    margin: 20px auto 0 auto;
+	width: 100px; 
+	align-items: center;
+	justify-content: space-between;
 }
 .btn-color {
 	width: 20px;
@@ -118,8 +116,7 @@ h2 {
 	
 }
 .btn-color:hover {
-	width: 35px;
-	height: 35px;
+	transform: scale(1.3);
 	transition: 0.5s ease-in-out;
 }
 
@@ -135,11 +132,16 @@ h2 {
 }
 
 /*Animacja */
-
-.cars {
+.wrapper {
+	overflow: hidden;
 	position: relative;
+	min-height: 300px;
+	margin-top: 30px;
+}
+.cars {
+	position: absolute;
 	left: 0px;
-	top: -250px;
+    top: calc(50% - 40px);
 	animation: carMove 10s linear infinite;
 }
 .circle-1,
