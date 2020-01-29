@@ -76,9 +76,10 @@ h2 {
 	
 }
 
-.seckcja-tree {
+.seckcja-three {
 	background: url("../assets/tlo-anima-car.jpg") no-repeat center/cover;
 	height: 1080px;
+	overflow: hidden;
 }
 .foto-box {
 	margin-top: -150px;
@@ -86,7 +87,7 @@ h2 {
 	margin-right: 90px;
 	width: 400px;
 }
-.article-seckcja-tree {
+.article-seckcja-three {
 	display: flex;
 	justify-content: space-between;
 }
@@ -99,14 +100,19 @@ h2 {
 /* sterowanie animacją */
 
 .buttons {
+	display: flex;
 	margin: 0 auto;
 	width: 150px;
-	top: 20px;
+	top: 50px;
+	height: 100px;
+	position: relative;  
+	align-content: center;
+	justify-content: center;
 }
 .btn-color {
 	width: 20px;
 	height: 20px;
-	border: 1px withe solid;
+	border: 1px #ffffff solid;
 	border-radius: 25px;
 	margin: 5px;
 	
