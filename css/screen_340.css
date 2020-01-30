@@ -2,7 +2,7 @@
 	
 	section.seckcja-top {
 		background: url("../assets/bg-top-mobile.jpg") no-repeat top/contain;
-		height: 100vh;
+		height: 770px;
 	}
 	article.article-top {
     top: 600px;
@@ -11,6 +11,11 @@
 	h1 {
     font-size: 35px;
     max-width: 340px;
+    }
+	
+	.text-column {
+    width: 100%;
+    padding: 0;
     }
 	
 	article.article-sektion-one {
