@@ -35,28 +35,28 @@ for (i = 0; i < buttons.length; i++) {
   });
 }
 
-// load page 2 in 1 
+//loandin new page 
 
-function httpGet(theUrl)
-{
-    if (window.XMLHttpRequest)
-    {
-        xmlhttp=new XMLHttpRequest();
-    }
-    else
-    {
-        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function()
-    {
-        if (xmlhttp.readyState==4 && xmlhttp.status==200)
-        {        	
-        	document.body.innerHTML += xmlhttp.responseText;
-        }
-    }
-    xmlhttp.open("GET", theUrl, false );
-    xmlhttp.send();    
-}
 
-var asd = httpGet('page/page-2.html');
-
+//function httpGet(theUrl)
+//{
+//    if (window.XMLHttpRequest)
+//    {
+//        xmlhttp=new XMLHttpRequest();
+//    }
+//    else
+//    {
+//        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+//    }
+//    xmlhttp.onreadystatechange=function()
+//    {
+//        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+//        {        	
+//        	document.body.innerHTML += xmlhttp.responseText;
+//        }
+//    }
+//    xmlhttp.open("GET", theUrl, false );
+//    xmlhttp.send();    
+//}
+//
+//var asd = httpGet('page/page-2.html');

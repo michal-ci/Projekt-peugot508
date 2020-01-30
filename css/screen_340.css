@@ -1,0 +1,42 @@
+@media only screen and (max-width: 560px){
+	
+	section.seckcja-top {
+		background: url("../assets/bg-top-mobile.jpg") no-repeat top/contain;
+		height: 100vh;
+	}
+	article.article-top {
+    top: 600px;
+    }
+	
+	h1 {
+    font-size: 35px;
+    max-width: 340px;
+    }
+	
+	article.article-sektion-one {
+    flex-flow: column;
+   }
+	
+	.seckcja-two {
+    margin-top: -500px;
+   }
+	
+	article.article-seckcja-three {
+    flex-flow: column;
+   }
+	
+	img.foto-box {
+    margin-top: -80px;
+    margin-left: 24px;
+   }
+	section.seckcja-three {
+    background: url(../assets/tlo-anima-car.jpg);
+    background-size: cover;
+    background-position-x: center;
+   }
+	iframe {
+    height: 300px;
+   }
+}
+
+	

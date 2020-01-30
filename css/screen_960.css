@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 960px){
+	
+	section.seckcja-top {
+    height: 100vh;
+    }
+	section.seckcja-one {
+   
+    }
+	/* sekcja dróga zmiany w polorzeniu */
+	.seckcja-two {
+    margin-top: -400px;
+		
+    }
+	
+	section.seckcja-three {
+    background-size: cover;
+}
+	
+	/* zmiany w polorzeniu pinów  */
+	
+	.pin:nth-child(1) {
+		    left: 590px;
+            top: 436px;
+	}
+	.pin:nth-child(2) {
+			top: 641px;
+			left: 677px;
+	}
+	.pin:nth-child(3) {
+
+		left: 378px;
+	}
+	seckcja-three.text-column {
+    width: 400px;
+    padding-right: 25px;
+    }
+	
+	img.foto-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}
