@@ -1,5 +1,7 @@
 @media only screen and (max-width: 560px){
 	
+	
+	
 	section.seckcja-top {
 		background: url("../assets/bg-top-mobile.jpg") no-repeat top/cover;
 		height: 650px;
@@ -31,13 +33,20 @@
     margin-top: -60px;
    }
 	
+	.seckcja-two {
+ 
+    visibility: hidden;
+}
+	
 	article.article-seckcja-three {
     flex-flow: column;
    }
 	
 	img.foto-box {
     margin-top: -80px;
-    margin-left: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
    }
 	section.seckcja-three {
     background: url(../assets/tlo-anima-car.jpg);
