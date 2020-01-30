@@ -1,11 +1,16 @@
 @media only screen and (max-width: 560px){
 	
 	section.seckcja-top {
-		background: url("../assets/bg-top-mobile.jpg") no-repeat top/contain;
-		height: 600px;
+		background: url("../assets/bg-top-mobile.jpg") no-repeat top/cover;
+		height: 650px;
 	}
+	
+	.contener {
+		max-width: 560px;
+	}
+	
 	article.article-top {
-    top: 450px;
+    top: 500px;
     }
 	
 	h1 {
@@ -23,7 +28,7 @@
    }
 	
 	.seckcja-two {
-    margin-top: -500px;
+    margin-top: -60px;
    }
 	
 	article.article-seckcja-three {
