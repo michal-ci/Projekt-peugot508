@@ -415,7 +415,10 @@ section.seckcja-top-page2 {
     text-align: right;
 }
 
-
+.rysunek-techniczny img {
+	text-align: center;
+	width: 100%;
+}
 
 
 
