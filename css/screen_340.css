@@ -2,10 +2,10 @@
 	
 	section.seckcja-top {
 		background: url("../assets/bg-top-mobile.jpg") no-repeat top/contain;
-		height: 770px;
+		height: 600px;
 	}
 	article.article-top {
-    top: 600px;
+    top: 450px;
     }
 	
 	h1 {
