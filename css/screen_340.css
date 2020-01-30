@@ -17,7 +17,7 @@
 	
 	h1 {
     font-size: 35px;
-    max-width: 340px;
+    max-width: 330px;
     }
 	
 	.text-column {
@@ -36,7 +36,10 @@
 	.seckcja-two {
  
     visibility: hidden;
-}
+    }
+	section.seckcja-three {
+    margin-top: -550px;
+    }
 	
 	article.article-seckcja-three {
     flex-flow: column;
