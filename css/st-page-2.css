@@ -7,13 +7,7 @@ video {
     width: 100%;
 }
 
-div.contener {
-	max-width: 1170px;
-	height: 100vh;
-	margin: 0 auto;
-	padding: 0 20px;
-	z-index: 1;
-}
+
 /* --------------------sekcja top -------------------------------- */
 
 section.seckcja-top-page2 { 

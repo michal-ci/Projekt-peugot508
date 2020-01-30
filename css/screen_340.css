@@ -30,13 +30,9 @@
    }
 	
 	.seckcja-two {
-    margin-top: -60px;
+     visibility: hidden;
    }
 	
-	.seckcja-two {
- 
-    visibility: hidden;
-    }
 	section.seckcja-three {
     margin-top: -550px;
     }
