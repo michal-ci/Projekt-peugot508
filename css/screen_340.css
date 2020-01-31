@@ -58,7 +58,6 @@
 }
 /* ############## PAGE 2 ################# */
 
-/*
 section.seckcja-top-page2 {
 
 	background-size: contain;
@@ -76,5 +75,8 @@ section.seckcja-top-page2 {
 .text-column img {
 	width: 200px;
 }
-*/
+.seckcja-two-page2 {
+
+	height: 400px;
+}
 
